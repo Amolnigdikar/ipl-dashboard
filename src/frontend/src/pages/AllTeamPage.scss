@@ -1,0 +1,22 @@
+.AllTeamPage {
+  .team-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    row-gap: 10px;
+  }
+
+  .team-tile {
+    border: 2px solid white;
+    color: white;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .header-section {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    justify-content: center;
+  }
+}
